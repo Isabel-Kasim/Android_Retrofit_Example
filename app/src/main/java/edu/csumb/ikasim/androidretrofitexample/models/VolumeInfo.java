@@ -5,6 +5,7 @@ import com.google.gson.annotations.SerializedName;
 
 import java.util.List;
 
+//this class contains the specific info about individual books
 public class VolumeInfo {
     @SerializedName("title")
     @Expose
@@ -12,7 +13,7 @@ public class VolumeInfo {
 
     @SerializedName("authors")
     @Expose
-    private List<String> authors = null;
+    private List<String> authors = null; //set to null to empty the list
 
     @SerializedName("publisher")
     @Expose
